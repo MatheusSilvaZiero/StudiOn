@@ -273,3 +273,67 @@ ul {
    
 
 }
+
+.quote {
+
+    
+    background-image: url(./images/parallax.jpg);
+   
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.quote_container {
+
+    
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote_copy {
+
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
+
+}
+
+.quote_copy h6 {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    letter-spacing: .1875rem;
+    line-height: 1.4375rem;
+    max-width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote_copy h2 {
+
+    font-size: 80px;
+    line-height: 5rem;
+    font-weight: 700;
+    letter-spacing: -.1875rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.quote_copy h2 span {
+
+    display: block;
+}
+
+.btn-quote {
+
+    color: #333;
+    border-color: #333;
+    background: unset;
+
+
+}
