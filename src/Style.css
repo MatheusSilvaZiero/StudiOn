@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css');
+
 * {
 
     box-sizing: border-box;
@@ -335,5 +339,122 @@ ul {
     border-color: #333;
     background: unset;
 
+}
 
+.footer {
+
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.footer_container {
+
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem 0;
+}
+
+.footer .logo-studion {
+
+    justify-self: start;
+    
+
+}
+
+
+ .logo-studion-subtitle {
+
+    display: block;
+}
+
+.footer_form {
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: 9ch auto;
+    gap: 1.25rem;
+  
+}
+
+
+.footer_form label {
+
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.footer_email {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    width: 100%;
+
+}
+
+.footer_form input {
+
+    width: 100%;
+    background-color: var(--colorprimary);
+    border: unset;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+
+.footer_form input::placeholder {
+
+    color: #000;
+}
+
+.footer_form input:focus {
+
+    outline-color: #fff;
+
+}
+
+.footer_form button {
+
+    border: unset;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.8 all ease;
+}
+
+.footer_form button:hover {
+
+    color: #fff;
+    background-color: #333;
+
+
+}
+
+.footer_social {
+
+    justify-self: end;
+    
+}
+
+.footer_social a,.footer_social a:visited,.footer_social a:active {
+
+    color: #fff;
+    margin-left: 1.3rem;
+}
+
+.footer hr {
+
+    border-color: #fff4;
+    margin: 0;
+}
+
+.footer p {
+
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 300;
+    margin: 40px 0;
 }
