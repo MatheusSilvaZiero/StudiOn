@@ -1,0 +1,104 @@
+.contact {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact h3 {
+
+    margin: 0;
+    margin-bottom: 1.875rem;
+    font-size:  1.5625rem;
+}
+
+.contact_info h3:nth-of-type(2){
+
+    margin-top: 3.75rem;
+}
+
+.contact_info,.contact_form {
+
+    padding: 4rem 0;
+
+   
+}
+
+
+.contact_info_container {
+
+    float: right;
+    padding-right: 7.125rem;
+}
+
+.contact_info i {
+
+    font-size: 1.5rem;
+    color: var(--colorprimary);
+}
+
+.contact_info span {
+    display: grid;
+    grid-template-columns: 1.5rem auto;
+    gap: .625rem;
+    align-items: center;
+    font-size: "roboto";
+    font-weight: 700;
+    line-height: 1.6875;
+
+}
+
+.contact_info_container, .contact_form_container {
+    width: 540px;
+
+}
+
+.contact_form_container {
+
+    padding-left: 7.125rem;
+}
+
+.contact_form {
+
+       
+        background-color: #000;
+        color: #fff;
+
+}
+
+.contact_form label, .contact_form input {
+
+    display: block;
+}
+
+.contact_form label {
+
+    font-weight: 700;
+}
+.contact_form input {
+
+    width: 100%;
+    margin-bottom: 1.875rem;
+    padding: 0.5rem 0rem;
+    background-color: unset;
+    border: unset;
+    border-bottom: 0.06rem solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+.contact_form input:focus {
+
+    outline: unset;
+}
+
+.contact_form button {
+
+    float: right;
+}
+
+.maps,.maps iframe {
+
+    height: 35.5rem;
+}
+

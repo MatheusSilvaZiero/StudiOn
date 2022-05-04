@@ -1,0 +1,286 @@
+
+.slider {
+
+    color: #fff;
+    background-color: black;
+    
+}
+.slider_next_arrow,.slider_prev_arrow {
+
+    width: 40px;
+    height: 40px;
+    border: 5px solid #fff;
+    border-right: unset;
+    border-bottom: unset;
+
+}
+.slider_prev_arrow {
+
+    left: 16px;
+    z-index: 1;
+     transform: rotate(-45deg);
+    
+}
+
+.slider_next_arrow {
+
+    right: 16px;
+    transform: rotate(135deg);
+}
+
+.slider_next_arrow::before,.slider_prev_arrow::before{
+
+    content: "";
+}
+
+
+.slick-arrow {
+
+    display: none
+
+}
+@media screen and (min-width: 1280px) {
+    
+    .slick-arrow {
+
+        display: block;
+
+    }
+
+}
+
+
+
+.slide {
+    position: relative;
+    height: 90vh
+
+}
+
+.slide-background-image {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.slide_copy {
+    top: 0;
+    position: absolute;
+    top: 6.25rem;
+    text-align: center;
+
+    
+}
+.slide_copy span {
+
+    display: block;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .slide_copy {
+
+        left: 50vw;
+        text-align: unset";
+        
+    }
+
+    .slide_copy span {
+
+        display: inline;
+    }
+     
+}
+
+
+
+.slide_copy h6{
+
+    
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1875rem;
+    
+   
+}
+
+
+.slide_copy h2{
+    
+    font-size: 3.25rem;
+    text-transform: uppercase;
+    line-height: 3.25rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .slide_copy h2{
+
+    font-size: 6.25rem;
+    line-height: 6.25rem;;
+}
+}
+.slide_copy h2 span {
+
+    display: block;
+}
+
+
+#counter {
+
+    background-color: var(--colorprimary);
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.counter_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+    padding: 4.375rem 1rem;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.counter_container h3 {
+
+
+    font-size: 2.1875rem;
+}
+
+.counter_container h3 small {
+    
+    display: block;
+    font-size: 1.25rem;
+}
+
+.institutional {
+
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375rem 0;
+    
+}
+
+@media screen and (min-width: 720px) {
+    
+ .institutional{
+
+    grid-template-columns: auto auto;
+    padding: 4.375rem;
+
+ }   
+
+
+}
+
+
+.image_institutional {
+
+    max-width: 550px;
+
+}
+
+.institutional_copy {
+
+    padding: 0 0 1.875rem 0;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .institutional_copy {
+
+        padding: 0  1.875rem ;
+
+    }
+    
+}
+
+.institutional_copy h6 {
+
+    font-size: 0.875rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.institutional_copy h4 {
+
+    font-size: 1.5625rem;
+    margin-top: 1rem;
+
+
+}
+
+.institutional p {
+
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    margin-bottom: 2.5rem;
+
+}
+
+
+.quote {
+
+    
+    background-image: url(../images/parallax.jpg);
+   
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.quote_container {
+
+    
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote_copy {
+
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
+
+}
+
+.quote_copy h6 {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    letter-spacing: .1875rem;
+    line-height: 1.4375rem;
+    max-width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote_copy h2 {
+
+    font-size: 80px;
+    line-height: 5rem;
+    font-weight: 700;
+    letter-spacing: -.1875rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.quote_copy h2 span {
+
+    display: block;
+}
